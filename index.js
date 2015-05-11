@@ -7,11 +7,11 @@ var main = function () {
  $("." + $(this).data('par')).removeClass('verborgen');
  
      
- };
+ });
   
 
 
-    var index = 0;
+     var index = 0;
     var image = document.getElementById("fotoke");
     var img_array = ["img/cveen.jpg", "img/cvtwee.jpg", "img/cvdrie.jpg"];
 
@@ -21,9 +21,9 @@ var main = function () {
     setInterval(slide, 5000);
     
     
-    };
     
-    var index = 0;
+    
+     var index = 0;
     var image = document.getElementById("fotokes");
     var img_array = ["img/illueen.jpg", "img/illutwee.jpg", "img/illudrie.jpg","img/illuvier.jpg","img/illuvijf.jpg"];
 
@@ -33,7 +33,7 @@ var main = function () {
     setInterval(slide, 5000);
     
    
-    (end);
+    
     
      var index = 0;
     var image = document.getElementById("fotos");
@@ -45,7 +45,7 @@ var main = function () {
     setInterval(slide, 5000);
     
    
-    (end);
+};
     
     
 
